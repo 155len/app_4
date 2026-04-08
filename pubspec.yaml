@@ -1,0 +1,46 @@
+name: glucose_tracker
+description: "血糖记录应用 - 为糖尿病患者提供简单易用的血糖和饮食记录工具"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.4.0
+
+  # 本地存储
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  path_provider: ^2.1.1
+
+  # 图片相关
+  image_picker: ^1.0.5
+  permission_handler: ^11.0.1
+
+  # 导出功能
+  pdf: ^3.10.7
+  printing: ^5.11.1
+  path: ^1.8.3
+
+  # 图表
+  fl_chart: ^0.65.0
+
+  # 工具
+  intl: ^0.18.1
+  http: ^1.1.0
+  uuid: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
